@@ -25,24 +25,25 @@
     </plugins>
   </build>
   <dependencies>
-
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-jaxrs</artifactId>
+      <version>3.12.1.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-cdi</artifactId>
+      <version>3.12.1.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-client</artifactId>
+      <version>3.12.1.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.resteasy</groupId>
+      <artifactId>resteasy-jaxb-provider</artifactId>
+      <version>3.12.1.Final</version>
+   </dependency>
     </dependencies>
 </project>
-
-<!--   	<dependencies> -->
-<!-- 		<dependency> -->
-<!-- 		<groupId>org.glassfish.jersey.core</groupId> -->
-<!-- 		<artifactId>jersey-server</artifactId> -->
-<!-- 		<version>2.27</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 		<groupId>org.glassfish.jersey.containers</groupId> -->
-<!-- 		<artifactId>jersey-container-servlet</artifactId> -->
-<!-- 		<version>2.27</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 		<groupId>org.glassfish.jersey.inject</groupId> -->
-<!-- 		<artifactId>jersey-hk2</artifactId> -->
-<!-- 		<version>2.27</version> -->
-<!-- 		</dependency> -->
-<!-- 	</dependencies> -->
